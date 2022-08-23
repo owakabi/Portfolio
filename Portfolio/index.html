@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noordin Duniya Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora:400,700Roboto+Slab:400,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img/Logo2-1.png" alt="logo" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html#index" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About me</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Noordin Duniya</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Cs Student</p>
+      <img
+        src="img/dev-noordin-01.PNG"
+        alt="a picture of Noordin"
+        class="intro__img"
+      />
+    </section>
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I Do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Design + Development</h3>
+          <p>
+            I am currently learning, how to design and develop websites, to
+            design the websites, I use Figma as that is the software, I am most
+            comfortable with. To develop websites, I use Visual Studio Code, as
+            it is my preferred code editor.
+            <br />
+            <br />
+            I have been using Visual Studio code for some time now, am familiar
+            with the software, as well as having all my extensions makes, the
+            experience enjoyable, developing in Visual Studio Code.
+          </p>
+        </div>
+        <!-- / service -->
+
+        <div class="service">
+          <h3>HTML & CSS</h3>
+          <p>
+            I always wanted to know how websites were made, what happened every
+            time I filled out a form online, why some websites looked appealing
+            and why others did not, these were questions that always fascinated
+            me.
+            <br />
+            <br />
+            This is when I discoverd what HTML, CSS and Javascript can do when
+            used together well.
+          </p>
+        </div>
+        <!-- / service -->
+
+        <div class="service">
+          <h3>C++</h3>
+          <p>
+            C++ was created in the early 1980's and is a general purpose, object
+            oriented programming language. it supports generic programming as
+            well as low level memory manipulation.
+            <br />
+            <br />
+            It is no secret C++ has influenced many other programming languages.
+            including C# and Java, one can argue how would programming languages
+            look like, if it was not for C++.
+          </p>
+        </div>
+        <!-- / service -->
+      </div>
+      <!-- / services -->
+
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Current comp sci student, living in Blackpool.
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          From a young age, I have always been fascinated with computers, I
+          always wanted to learn, how they work, what makes do the things, they
+          do.
+        </p>
+
+        <p>
+          So I always took my IT lesson's very seriously. At the age 16 my
+          parents asked me to make them a website, which I had no idea, how to
+          make. But as I was the IT guy in my family, they assumed, it was
+          nothing I could not figure out.
+        </p>
+
+        <p>
+          So I started learning about web design, using free online resources, I
+          could get hands on. That is when my passion for web design was
+          realised. The final website was nothing special, but it served it's
+          purpose. I have always been fascinated with professional looking
+          websites, I am working towards that level, where I can design and
+          build, beautiful professional websites.
+        </p>
+      </div>
+
+      <img
+        src="img/dev-noordin-02.PNG"
+        alt="noordin outside"
+        class="about-me__img"
+      />
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my range of work
+      </p>
+
+      <div class="portfolio">
+        <!-- Portfolio item 01 -->
+        <a href="portfolio-item.html" class="portfolio__item">
+          <img src="img/portfolio-01.jpg" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 02 -->
+        <a href="portfolio-item -2.html" class="portfolio__item">
+          <img src="img/portfolio-02.jpg" alt="" class="portfolio__img" />
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <!-- Quick email -->
+      <a href="mailto:iowakabi@gmail.com" class="footer__link"
+        >hello@noordin.dev</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://codepen.io">
+            <i class="fab fa-codepen"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="http://linkedin.com">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://twitter.com">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
